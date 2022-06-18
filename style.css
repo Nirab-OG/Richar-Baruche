@@ -1,0 +1,109 @@
+.container-fluid{
+    padding: 3%;
+}
+
+#title{
+   
+    background: #EEE4AB;
+    border: 10px solid grey;
+    padding: 2% 5% 5% 5% ;
+}
+.navbar-brand{
+    font-family: 'tangerine';
+    font-weight: bolder;
+    font-size: 2rem;
+    color:brown;
+}
+.intro-img{
+    width:80%;
+    height: 500px;
+
+}
+h1{
+    top:30%;
+    left:11%;
+    position: absolute;
+    margin: 0;
+    font-family: 'DM Serif Display', sans-serif;
+    font-weight: lighter;
+    font-size: 5rem;
+    border: 5px solid white;
+    color: white;
+    line-height: 1.5;
+}
+h3{
+    top:80%;
+    left: 12%;
+    position: absolute; 
+    margin: 0;
+   font-family: 'tangerine';
+   font-size: 4rem;
+    color: white;
+}
+hr{
+    width: 15%;
+    height: 0;
+    border-top: 3px solid brown;
+margin: 4rem auto ;
+}
+
+.ft-img{
+    width: 20%;
+    border: 10px solid grey;
+    float: right;
+    margin:1rem auto 1rem 1rem;
+}
+p{   font-family: 'tangerine';
+    font-size: 2rem;
+    margin:1%;
+    line-height: 1.5;
+}
+.est{
+    font-size: 3rem;
+}
+
+#features{
+    margin-top: 3rem;
+    padding: 2%  ;
+    
+}
+
+.f-box{
+    text-align: center;
+    padding: 1%;
+}
+.feat{
+    width: 33%;
+    border: 10px solid grey;
+    text-align: center;
+}
+
+@media (max-width: 990px){
+    .intro-img{
+        width:100%;
+        height: 50%;
+    }
+h1{
+   top:22%;
+   left:14%;
+    position: absolute;
+    font-family: 'DM Serif Display', sans-serif;
+    font-weight: lighter;
+    font-size: 1.8rem;
+    }
+    h3{
+        top:50%;
+        left: 14%;
+        position: absolute; 
+        margin: 0;
+       font-family: 'tangerine';
+       font-size: 2rem;
+        color: white;
+    }
+    .ft-img{
+        width: 50%;
+        border: 10px solid grey;
+        float: right;
+        margin:1rem 1rem 1rem auto;
+    }
+}
